@@ -103,6 +103,7 @@ async function scrape(): Promise<void> {
           machineType: name,
         },
         prices: [],
+        emissions: [],
       };
 
       product.productHash = generateProductHash(product);
